@@ -1,0 +1,14 @@
+body{
+    background-image:url("images/education_photo.jpg");
+    background-repeat: no-repeat;
+}
+.container{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.college{
+    margin: 1px;
+    font-style: oblique;
+    display: flex;
+}
