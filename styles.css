@@ -14,24 +14,31 @@ body{
 
  .dropdown {
   color: beige;
-  margin: 1px;
+  margin-left: 100px;
   flex-grow: 8;
   border-radius:1000px;
   height: 50px;
    cursor: pointer;
+ }
+ .hometab::after{
+  background-color: #615e5e;
+  margin-left: 100px;
+  flex-grow: 8;
+  border-radius:10px ;
+  cursor: pointer;
  }
 
 
  .dropdown > button {
   
   padding: 10px;
-   width: 170px;
+   width: 140px;
    height: 50px;
    border: 0;
    border-radius: 6px;
    font-family: inherit;
    font-size: 17px;
-   background: #3c3c3c;
+   background: #615e5e;
  }
 
  .dropdown > .content {
@@ -62,17 +69,14 @@ body{
  }
 
  .dropdown:hover > .content::after {
-  left: 100px;
    transform: scaleX(1);
  }
 
  .dropdown > .content > span:first-child {
-  left: 100px;
    font-size: 20px;
  }
 
  .dropdown > .content > span:last-child {
-  
    margin-left: auto;
  }
 
@@ -91,8 +95,8 @@ body{
    top: -6px;
    left: 50%;
    display: grid;
-   width: 110%;
-   padding: 70px 100px 6px;
+   width: 200px;
+   padding: 10px;
    border-radius: 6px;
    translate: -50% 0;
    visibility: hidden;
@@ -126,3 +130,27 @@ body{
  .dropdown > .menu > a > span {
    font-size: 20px;
  }
+ .container2{
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+ }
+ .round-image-container {
+  width: 150px; /* Set the container width */
+  height: 150px; /* Set the container height */
+  overflow: hidden; /* Hide any content that exceeds the container size */
+  border-radius: 50%; /* Create a circular container */
+}
+
+.round-image {
+  width: 100%; /* Make the image fill the container */
+  height: 100%;
+  object-fit: cover; /* Scale the image to cover the container while preserving aspect ratio */
+}
+.skills{
+  border-radius: 50%;
+  margin-left: -50px;
+  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+}
