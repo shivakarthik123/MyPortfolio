@@ -20,13 +20,6 @@ body{
   height: 50px;
    cursor: pointer;
  }
- .hometab::after{
-  background-color: #615e5e;
-  margin-left: 100px;
-  flex-grow: 8;
-  border-radius:10px ;
-  cursor: pointer;
- }
 
 
  .dropdown > button {
@@ -153,4 +146,15 @@ body{
   margin-right: 20px;
   width: 30px;
   height: 30px;
+}
+.horizontal-rule {
+  border-bottom: 1px solid black;
+  width: 60%;
+  margin: 10px;
+}
+h2{
+  font-family:'Times New Roman', Times, serif;
+}
+img{
+  border-radius: 30px;
 }
